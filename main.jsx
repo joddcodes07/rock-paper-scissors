@@ -1,7 +1,6 @@
 import { createRoot } from "react-dom/client";
+import App from "./App";
 
-let template = (
-    <h1>Hi</h1>
-)
 
-createRoot(document.getElementById("root")).render(template)
+
+createRoot(document.getElementById("root")).render(<App />)
